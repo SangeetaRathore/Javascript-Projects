@@ -42,10 +42,24 @@ main{
 
 #to-do-list{
     list-style: none;
-    padding: 10px;
-    background: rgb(138, 129, 129);
+    margin-top: 20px;
+}
+
+#to-do-list li{
+    position: relative;
+    padding: 10px 40px 10px 10px ;
+    background: rgb(62, 89, 104);
     font-size: 18px;
     margin-top: 20px;
     color: white;
     font-weight: 400;
+    text-align: justify;
+    min-height: 35px;
+    
+}
+
+#to-do-list li i{
+    position: absolute;
+    top: 10px;
+    right: 10px;
 }
