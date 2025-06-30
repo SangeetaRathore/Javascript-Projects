@@ -55,11 +55,38 @@ main{
     font-weight: 400;
     text-align: justify;
     min-height: 35px;
-    
+    user-select: none;
 }
+
+
+#to-do-list li .text {
+    white-space: pre-wrap; /* allows line breaks */
+    word-break: break-word;
+    width: 92%;
+}
+
 
 #to-do-list li i{
     position: absolute;
     top: 10px;
     right: 10px;
+}
+
+.done{
+    background: rgb(119, 116, 116) !important;
+    text-decoration: line-through;
+    color: rgb(240, 234, 234) !important;
+    text-decoration-thickness: 3px;
+    text-decoration-color: black;
+}
+
+#button{
+    background: green;
+    padding: 6px;
+    border: none;
+    color: white;
+    border-radius: 12%;
+    position: absolute;
+    top: 8px;
+    right: 35px;
 }
